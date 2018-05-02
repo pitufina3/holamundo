@@ -1,0 +1,56 @@
+
+/*Seleccion por etiqueta*/
+h1 {
+    color: red;
+    background-color: yellow;
+}
+
+/*Seleccion por clase*/
+.cabecera {
+    color: yellow;
+}
+.destacado{
+    font-weight: bold;
+}
+
+
+
+header > #logo {
+    margin-left: 20px;
+
+}
+
+.container > .row > .col:first-child {
+    background-color: black;
+
+}
+
+.container > .row > .col:nth-child(2) {
+    font-size:20px;
+}
+
+.container > .row > .col:last-child {
+    color: blue; 
+    text-align: center;
+    background-color: pink;
+    vertical-align: bottom;
+
+}
+
+.container > .row:nth-child(2)  img {
+    margin: 10px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
